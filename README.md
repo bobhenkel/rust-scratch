@@ -1,6 +1,6 @@
 Thoughts... maybe a compiled language has more benefits than most of us think!
 
-This repo has is an example of building a very small(in total image size) secure(very small attack surface) docker image using rust as the example language, go can use this approach too.  Because this approach uses scratch as the base image there's next to nothing on the final docker image, no shell(bash, sh) no ls no nothing really except the bare bones and a rust binary.
+This repo is an example of building a very small(in total image size) secure(very small attack surface) docker image using rust as the example language, go can use this approach too, and so can C if you that's the way you roll.  Because this approach uses scratch as the base image there's next to nothing on the final docker image, no shell(bash, sh) no ls no nothing really except the bare bones and a rust binary.  While a fun circus trick it also has real world benefits. Quick scale up and down, less attack surface, cheaper to store in a hosted registry to name the ones off the top of my head.
 
 
 **STEPS TO RUN**

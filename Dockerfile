@@ -1,4 +1,4 @@
-FROM rust:1.34.2-slim-stretch AS build-env
+FROM rust:1.41.0-slim-stretch AS build-env
 
 ADD . /app/src
 WORKDIR /app/src/
